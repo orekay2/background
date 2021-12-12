@@ -5,6 +5,7 @@ colorMode(HSB)
   rectMode(CENTER)
 }
 var a =0
+var c = 0
 var i = 0
 var b = true
 function draw() {
@@ -25,7 +26,9 @@ function draw() {
   if (b == true) {
     i+=1
   }
-  
+  if (a>= 400) {
+    a = 0
+  }
   console.log(i)
 rect(i,i,100,100)
   frameRate(480)
