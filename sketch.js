@@ -10,7 +10,7 @@ var b = true
 function draw() {
   a+=1
   fill(color(a,100,100) )
-  translate(mouseX,mouseY)
+  translate(960,540)
   rotate(a)
   if (i>1000 && b ==true) {
     b = false
